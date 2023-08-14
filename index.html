@@ -50,7 +50,7 @@
     <input type="text" name="" id="about"><br><br>
     <label for="date">date:</label>
     <input type="date" id="date"><br><br>
-    <button type="button" onclick="adduser()">adduser</button><br><br>
+    <button type="button" onclick="adduser()">signup</button><br><br>
     <button type="button" onclick="updateuser()">update user</button>
   </form>
   <table border="1">
@@ -102,7 +102,7 @@
       users.push(person)
       displayUsers()
       clearForm()
-    window.location.href="http://127.0.0.1:5501/index1.html"
+    window.location.href="http://127.0.0.1:5501/index2.html"
     }
     function displayUsers() {
       document.querySelector("tbody").innerHTML = ""
